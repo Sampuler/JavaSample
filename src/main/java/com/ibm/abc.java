@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 	@GetMapping("/welcome")
 	public String getWelcome(Model model) {
 	model.addAttribute("msg", "welcome to kirru");
-	System.out.println("hello Word");
+	System.out.println("hello radhika");
 	
     return "index";
 
